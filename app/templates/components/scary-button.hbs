@@ -1,0 +1,14 @@
+{{#if shouldShowScary}}
+  <img data-test-scary-image src='/images/scary.gif' />
+{{else}}
+  {{#fullscreen-confirm
+      as |userDidConfirm|}}
+    <button
+      data-test-show-confirm
+      type='button'
+      class='alert button'
+      {{action (pipe userDidConfirm (action doSomethingScary))}}>
+      Something scary...
+    </button>
+  {{/fullscreen-confirm}}
+{{/if}}

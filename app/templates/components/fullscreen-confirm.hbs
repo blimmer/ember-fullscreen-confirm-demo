@@ -1,0 +1,22 @@
+{{#if showModal}}
+  {{#ember-wormhole to='fullscreen-modal-container'}}
+    <div class='modal-contents' data-test-modal-contents>
+      <h1 data-test-headline>You sure??</h1>
+
+      <div class='buttons-container'>
+        <button
+          data-test-cancel-button
+          type='button'
+          {{action 'cancel'}}
+          class='button'>Nevermind</button>
+        <button
+          data-test-confirm-button
+          type='button'
+          {{action 'confirm'}}
+          class='button alert'>Do it!</button>
+      </div>
+    </div>
+  {{/ember-wormhole}}
+{{/if}}
+
+{{yield (action 'showModal')}}

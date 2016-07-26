@@ -1,7 +1,7 @@
 {
-  "name": "ember-fullscreen-modal-demo",
+  "name": "ember-fullscreen-confirm-demo",
   "version": "0.0.0",
-  "description": "Small description for ember-fullscreen-modal-demo goes here",
+  "description": "Small description for ember-fullscreen-confirm-demo goes here",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -20,24 +20,29 @@
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
+    "broccoli-clean-css": "1.1.0",
     "ember-ajax": "^2.0.1",
-    "ember-cli": "2.6.1",
+    "ember-cli": "2.6.3",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-babel": "^5.1.6",
     "ember-cli-dependency-checker": "^1.2.0",
+    "ember-cli-foundation-6-sass": "0.0.13",
     "ember-cli-htmlbars": "^1.0.3",
     "ember-cli-htmlbars-inline-precompile": "^0.3.1",
     "ember-cli-inject-live-reload": "^1.4.0",
     "ember-cli-jshint": "^1.0.0",
-    "ember-cli-qunit": "^1.4.0",
-    "ember-cli-release": "0.2.8",
+    "ember-cli-mocha": "0.10.4",
+    "ember-cli-release": "^0.2.9",
+    "ember-cli-sass": "5.3.1",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^1.2.0",
+    "ember-composable-helpers": "1.0.0",
     "ember-data": "^2.6.0",
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
-    "ember-welcome-page": "^1.0.1",
+    "ember-test-selectors": "0.0.3",
+    "ember-wormhole": "0.4.0",
     "loader.js": "^4.0.1"
   }
 }

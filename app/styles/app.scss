@@ -1,0 +1,10 @@
+@import "settings";
+@import 'foundation';
+@include foundation-everything;
+
+@import 'fullscreen-confirm';
+@import 'scary-button';
+
+button.button {
+  font-size: 2em;
+}
