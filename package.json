@@ -1,8 +1,7 @@
 {
   "name": "ember-fullscreen-confirm-demo",
   "version": "0.0.0",
-  "description": "Small description for ember-fullscreen-confirm-demo goes here",
-  "private": true,
+  "description": "An example of a fullscreen modal using composable helpers - EmberJS Denver Lightning Talk July 2016",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -45,5 +44,6 @@
     "ember-test-selectors": "0.0.3",
     "ember-wormhole": "0.4.0",
     "loader.js": "^4.0.1"
-  }
+  },
+  "homepage": "https://blimmer.github.io/ember-fullscreen-confirm-demo"
 }

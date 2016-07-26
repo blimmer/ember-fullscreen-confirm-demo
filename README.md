@@ -1,6 +1,17 @@
 # ember-fullscreen-confirm-demo
 
-A quick demo of [ember-wormhole](https://github.com/yapplabs/ember-wormhole)
+[![Build Status](https://travis-ci.org/blimmer/ember-fullscreen-confirm-demo.svg?branch=master)](https://travis-ci.org/blimmer/ember-fullscreen-confirm-demo)
+
+A quick demo of [ember-wormhole](https://github.com/yapplabs/ember-wormhole),
+and [ember-composable-helpers](https://github.com/DockYard/ember-composable-helpers)
+used to build a nice looking fullscreen confirm modal.
+
+This was a lightning talk at the
+[Ember JS Denver Meetup](http://www.meetup.com/Ember-js-Denver/) in
+[July 2016](http://www.meetup.com/Ember-js-Denver/events/232418030/).
+
+## Live Demo
+Is available [here](https://blimmer.github.io/ember-fullscreen-confirm-demo).
 
 ## Prerequisites
 
