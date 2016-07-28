@@ -10,6 +10,9 @@ This was a lightning talk at the
 [Ember JS Denver Meetup](http://www.meetup.com/Ember-js-Denver/) in
 [July 2016](http://www.meetup.com/Ember-js-Denver/events/232418030/).
 
+## Slides
+Are [available on SlideShare](http://www.slideshare.net/BenLimmer/fun-with-ember-2x-features).
+
 ## Live Demo
 Is available [here](https://blimmer.github.io/ember-fullscreen-confirm-demo).
 
